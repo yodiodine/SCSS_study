@@ -1,0 +1,17 @@
+h1 {
+  color: orange;
+}
+
+div {
+  margin: 10px 20px;
+}
+div ul {
+  background-color: antiquewhite;
+}
+div ul li:nth-child(1) {
+  font-size: 18px;
+}
+
+p {
+  color: #ff5353;
+}/*# sourceMappingURL=style.css.map */

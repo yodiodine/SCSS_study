@@ -1,0 +1,17 @@
+$pretty_red: #ff5353;
+
+h1 { color : orange; }
+
+div{
+    margin : 10px 20px;
+    ul {
+        background-color: antiquewhite;
+        li:nth-child(1) {
+            font-size: 18px;
+        }
+    }
+}
+
+p {
+    color: $pretty_red;
+}
