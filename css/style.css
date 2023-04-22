@@ -6,12 +6,17 @@ body {
   box-sizing: border-box;
 }
 
+ul > li {
+  list-style: none;
+}
+
 h1 {
   font-weight: bold;
 }
 
 .artist_wrap {
-  margin-top: 20px;
+  background-color: #ff5353;
+  margin: 20px 20px 0px 20px;
 }
 .artist_wrap .artist_nm {
   font-size: 16px;

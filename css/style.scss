@@ -7,10 +7,18 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+ul >{
+    li{list-style: none;}
+}
+
+@mixin define_wrap{
+    background-color: #ff5353;
+    margin: 20px 20px 0px 20px;
+}
 
 h1 { font-weight: bold;}
 .artist_wrap{
-    margin-top: 20px;
+    @include define_wrap;
     .artist_nm{
         font-size: 16px;
     }
