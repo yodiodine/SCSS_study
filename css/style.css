@@ -1,17 +1,24 @@
+body {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1 {
-  color: orange;
+  font-weight: bold;
 }
 
-div {
-  margin: 10px 20px;
+.artist_wrap {
+  margin-top: 20px;
 }
-div ul {
-  background-color: antiquewhite;
+.artist_wrap .artist_nm {
+  font-size: 16px;
 }
-div ul li:nth-child(1) {
-  font-size: 18px;
+.artist_wrap .song_tit {
+  font-size: 14px;
 }
-
-p {
-  color: #ff5353;
+.artist_wrap .song_list > .song_nm {
+  color: rgba(255, 96, 33, 0.6);
 }/*# sourceMappingURL=style.css.map */
