@@ -5,6 +5,7 @@ h1 { color : orange; }
 div{
     margin : 10px 20px;
     ul {
+        list-style: noen;
         background-color: antiquewhite;
         li:nth-child(1) {
             font-size: 18px;
@@ -14,4 +15,8 @@ div{
 
 p {
     color: $pretty_red;
+}
+
+a {
+    color: #ff5353;
 }
