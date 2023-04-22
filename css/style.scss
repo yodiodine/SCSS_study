@@ -1,22 +1,11 @@
 $pretty_red: #ff5353;
 
-h1 { color : orange; }
-
-div{
-    margin : 10px 20px;
-    ul {
-        list-style: noen;
-        background-color: antiquewhite;
-        li:nth-child(1) {
-            font-size: 18px;
-        }
-    }
+body{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p {
-    color: $pretty_red;
-}
-
-a {
-    color: #ff5353;
-}
+h1 { font-weight: bold;}
